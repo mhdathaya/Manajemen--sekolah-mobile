@@ -1,0 +1,57 @@
+name: manajemen_sekolah
+description: "EduBlue - Aplikasi Manajemen Sekolah"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP Client
+  dio: ^5.7.0
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+
+  # QR Code Scanner
+  mobile_scanner: ^5.2.3
+
+  # QR Code Generator
+  qr_flutter: ^4.1.0
+
+  # Date Formatting
+  intl: ^0.19.0
+
+  # Image Picker (untuk foto profil)
+  image_picker: ^1.1.2
+
+  # Cached Network Image
+  cached_network_image: ^3.4.1
+
+  # Flutter SVG (opsional untuk ikon)
+  # flutter_svg: ^2.0.10
+
+  # Shimmer Loading Effect
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
